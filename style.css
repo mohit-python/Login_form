@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+    /*------------- Top nav bar --------------*/
+.navbar img{
+    cursor: pointer;
+    width: 27px;
+}
+.navbar{
+    padding: 10px 2%;
+   box-shadow: 0 0 10px rgba(0, 0 ,0 ,0.2);
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.side-names{
+    margin-right:34px;
+}
+.side-names span{
+    padding-right:25px ;
+    font-size: 19px;
+    color:#685788;
+    position: relative;
+}
+.side-names img{
+    position: absolute;
+    top: 4px;
+    width:28px
+    }
+        /*------------------------------------- CSS code for login form -----------------------------------*/
+
+    /*---------------- login-form container ------------------- */
+.form{
+    display: flex;
+    width: 25rem;
+     height: 400px;
+     margin:2% ;
+     float: right;
+     margin-top:130px;
+     margin-right: 10%;
+     border-radius: 20px;
+     box-shadow: 0 0 10px #8771b1;   
+     border: none;
+}
+.form form h1{
+margin-left: 147px;
+margin-top: 14px;
+color: #8771b1;
+}
+ /* ----------------login-forms's username ----------------- */
+.form form .username input{
+  width: 280px;
+  background-color: black;
+  margin-top: 20%;
+  margin-left: 46px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #685788;
+  background: transparent;
+  height: 2.3rem;
+  padding-left: 8px;
+  position: relative;
+}
+
+.form .username img{
+    width: 11px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -20px
+}
+::placeholder{
+    font-size: 12px;
+}
+       /* ----------------login-forms's password ----------------- */
+.form form .password input{
+    margin-top: 7%;
+  margin-left: 46px;
+  width: 280px;
+  height: 2.3rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #685788;
+  background: transparent;
+  padding-left: 9px;
+  position: relative;
+}
+.form .password img{
+    width: 15px;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: -22px
+}
+.password img:hover{
+    cursor: pointer;
+}
+form .password ::placeholder{
+    font-size: 12px;
+}
+      /*------------ login forms's forgot password option ----------------- */
+.sign-in p{
+  position: absolute;
+  margin-top: 16px;
+  font-size: 12px;
+  margin-left: 3.3rem;
+  color: blue;
+  cursor: pointer;
+}
+      /*------------ login forms's sign-in button ----------------- */
+.sign-in-button  button{
+    position: relative;
+    float: right;
+    margin-top: 11px;
+    margin-right: 4px;
+    font-size: 12px;
+    width: 60px;
+    height: 23px;
+    border: none;
+    background-color: #0064e0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+     /*------------ login forms's sign-up option ----------------- */
+.signUp{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 69px;
+}
+.signUp p{
+    font-size: 15px;
+}
+.signUp a{
+    font-size: 15px;
+    margin-left: 7px;
+    margin-top: -1px;
+}
+  /*---------------------------------------- Css code for Create New Account----------------------------------*/
+  .createAcc{
+    display: flex;
+    border: 2px solid black;
+    width: 25rem;
+     height: 468px;
+     margin:2% ;
+     float: right;
+     margin-top:119px;
+     margin-right: 10%;
+     border-radius: 20px;
+     box-shadow: 0 0 10px #8771b1;   
+     border: none;
+}
+.createAcc h1{
+   color:#8771b1;
+    font-size: 22px;
+    margin-left:87px;
+    margin-top: 18px;
+}
+.createAcc h1 span{
+    color:#8771b1;
+}
+.createAcc form div{
+   margin-top: 30px;
+}
+.createAcc form  input{
+    width: 93%;
+    border: none;
+    border: transparent;
+    outline: none;
+}
+.createAcc form div {
+    outline: none;
+    width: 90%;
+    border: none;
+     border-bottom:1px solid #685788 ;
+     padding: 1px 10px 7px 9px ;
+     margin-left: 52px;
+     background: transparent;
+}
+.createAcc form .pass-word img{
+    width: 15px;
+    float: right;
+    margin-top: 7px;
+}
+.pass-word img:hover{
+    cursor: pointer;
+}
+.remember {
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.remember input.check{
+    margin-left:-109px;
+    background-color: antiquewhite;
+    height: 18px;
+    margin-top: 12px;
+}
+.remember p{
+    display: flex;
+    margin-left: 35px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.createAcc .sign-up button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color:#0064e0;
+    color: white;
+    border-radius:7px ;
+}
