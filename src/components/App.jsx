@@ -9,8 +9,8 @@ function App()
       
       <BrowserRouter>
       <Routes>
-        <Route path='/Signup'element={<Signup />} />
-        <Route path='/'element={<Login />} />
+        <Route path='/mohit-python/Login_form/Signup'element={<Signup />} />
+        <Route path='/mohit-python/Login_forn'element={<Login />} />
       </Routes>
       </BrowserRouter>
     );
