@@ -1,17 +1,10 @@
 import React from "react";
+import NavBar from './navbar';
 function Signup()
 {
     return (
         <div>
-            <div class="navbar">
-        <img src="images/menu.png" />
-        <div class="side-names">
-            <span>Home</span>
-            <span>About Us</span>
-            <span>Contact Us</span>
-            <img src="images/user.png" />
-        </div>
-    </div>
+        <Navbar/>
     <div class="main2">
         <div class="createAcc">
             <form>

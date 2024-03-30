@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate} from "react-router-dom";
+import Navbar from './navbar';
 function Login()
 {
   const navigate = useNavigate();
@@ -9,15 +10,7 @@ function Login()
   }
     return(
         <div>
-            <div class="navbar">
-    <img src="images/menu.png" />
-    <div class="side-names">
-      <span>Home</span>
-      <span>About Us</span>
-      <span>Contact Us</span>
-      <img src="images/user.png" />
-    </div>
-  </div>
+           <Navbar/>
   <div class="main">
     <div class="form">
       <form>
