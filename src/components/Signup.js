@@ -25,8 +25,8 @@ function Signup()
                     <input type="password" placeholder="Password" id="password" /><img src="images/hidden.png" id="hidden-eye" />
                 </div>
                 <div className="remember" style={{border:"none",width:"90%",marginTop:"6px",padding:"0px"}} >
-                    <input type="checkbox" class="check" /><p>Remember me</p>
-                     {/* <label for="check">Remember me</label>  */}
+                    <input type="checkbox" class={'check'} />
+                    <label htmlFor={'check'}>{'Remember me'}</label>
                 </div>
                 <div className="sign-up" style = {{border:"none",width:"90%",padding:"0px",outline:"none",marginLeft:"56px"}}>
                     <button >sign-up</button>
